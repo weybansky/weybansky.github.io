@@ -52,6 +52,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         content="https://res.cloudinary.com/weybansky/image/upload/c_scale,w_150/v1566691253/a_o_nasir_nurwsz.jpg" />
 
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon"
+        href="https://res.cloudinary.com/weybansky/image/upload/c_scale,w_150/v1566691253/a_o_nasir_nurwsz.jpg">
 
 </head>
 
