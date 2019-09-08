@@ -1,0 +1,129 @@
+body {
+    font-family: 'sans-serif';
+    background-color: #7f6553;
+    padding: 30px;
+    margin: 0px;
+    min-width: 600px;
+    text-align: center;
+}
+
+body>section {
+    background: #ffffff;
+    padding: 30px 40px;
+    border-radius: 100px;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+thead {
+    color: #7f6553;
+}
+
+a {
+    text-decoration: none;
+    color: #7f6553;
+}
+
+body>section>section {
+    padding: 12px;
+}
+
+body>section>section:hover {
+    box-shadow: 0px 0px 10px -6px #7f6553, inset 0px 0px 10px -6px #7f6553;
+}
+
+b {
+    border-left: 3px solid #dddddd;
+    padding-left: 5px;
+}
+
+a:hover {
+    cursor: pointer;
+    font-style: italic;
+}
+
+p {
+    font-size: 14px;
+}
+
+small {
+    font-size: 13px;
+}
+
+header {
+    display: flex;
+    padding: 12px;
+    border-bottom: 1px solid #7f6553;
+}
+
+header>div {
+    flex: 1;
+}
+
+section#contact p {
+    display: inline-block;
+    padding-right: 15px;
+}
+
+table {
+    border-spacing: 0px;
+}
+
+table>thead>tr {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+table>thead td {
+    padding-bottom: 15px;
+}
+
+table>tbody td:nth-child(odd) {
+    text-align: right;
+    border-right: 2px solid #dddddd;
+    padding-right: 10px;
+}
+
+table>tbody td:nth-child(even) {
+    text-align: left;
+    padding-left: 10px;
+}
+
+table>tbody td {
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+form>div {
+    margin: 15px 0px;
+}
+
+input,
+textarea {
+    padding: 10px;
+    color: #7f6553;
+    border: 1px solid #7f6553;
+    border-radius: 5px;
+    letter-spacing: 1.5px;
+    min-width: 450px;
+}
+
+form button {
+    padding: 15px 20px;
+    color: #ffffff;
+    background-color: #7f6553;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+}
